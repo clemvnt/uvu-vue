@@ -1,6 +1,6 @@
 import { test } from 'uvu'
 import * as assert from 'uvu/assert'
-import * as ENV from './setup/env.mjs'
+import * as ENV from './setup/env.js'
 
 import Count from '../src/Count.vue'
 

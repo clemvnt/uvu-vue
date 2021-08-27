@@ -1,4 +1,4 @@
-import './window.mjs' // Should be imported before vue
+import './window.js' // Should be imported before vue
 import { createApp } from 'vue'
 
 export function reset() {

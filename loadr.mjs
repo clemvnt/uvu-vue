@@ -1,1 +1,1 @@
-export const loaders = ['./vue-loader.mjs']
+export const loaders = ['./vue-loader.js']
