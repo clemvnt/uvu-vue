@@ -1,9 +1,11 @@
 <script setup>
+import { ref } from 'vue'
+
 const props = defineProps({
   count: { type: Number, default: 5 }
 })
 
-let value = $ref(props.count)
+const value = ref(props.count)
 </script>
 
 <template>
